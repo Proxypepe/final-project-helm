@@ -224,5 +224,5 @@ data:
           labels:
             severity: critical
           annotations:
-            summary: 'Prometheus target missing (instance {{ "{{" }} $labels.instance }})'
-            description: 'A Prometheus target has disappeared. An exporter might be crashed. VALUE = {{ "{{" }} $value }}  LABELS: {{ "{{" }} $labels }}'
+            summary: 'Prometheus target missing (instance FastApi)'
+            description: 'A Prometheus target has disappeared. An exporter might be crashed. VALUE = {{ "{{" }} $value }}  LABELS: FastApi'
